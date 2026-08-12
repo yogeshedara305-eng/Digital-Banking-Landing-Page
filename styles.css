@@ -302,6 +302,7 @@ body {
     margin: 100px;
 }
 
+
 .btn-end {
     background: linear-gradient(
         to bottom,
@@ -381,10 +382,28 @@ body {
         background-color: white;
         border: 1px solid black;
     }
-
-
-    
-    .hero {
+    .close{
+        background-color: red;
+        border:none;
+        outline:none
+    }
+    .sidebar li{
+        list-style-type: none;;
+        margin:20px
+    }
+      .sidebar li a{
+       text-decoration: none;
+       color:black;
+       margin:40%
+    }
+    .menu {
+        border:none;
+        outline: none;
+    }
+    .sidebar{
+        width:90%
+    }
+  .hero {
         display: flex;
 
         flex-direction: column-reverse;
@@ -463,11 +482,7 @@ body {
     .head1 {
         margin-top: 0;
     }
-
-
-  
-
-    .boxes {
+  .boxes {
         display: flex;
 
         flex-direction: column;
@@ -520,11 +535,7 @@ body {
 
         margin: 10px 0;
     }
-
-
-  
-
-    .fotter {
+  .fotter {
         display: flex;
 
         flex-direction: column;
